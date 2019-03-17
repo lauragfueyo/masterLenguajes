@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laguage exercises - Read Books</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <h1>Read Books</h1>
+        <p>Crea una función isBookRead que reciba una lista de libros y un título y devuelva si se ha leído o no dicho libro.</p>
+        <p>Un libro es un objeto con <em>title</em> como string y <em>isRead</em> como booleano. En caso de no existir el libro devolver <em>false</em></p>
+        <p><strong>TIP: Existe un método de Array.prototype que te ayudará a buscar según un patrón.</strong></p>
+        <p class="center"><code>function isBookRead(books, titleToSearch) {// Implementation here}</code></p>
+        <h2>Ejemplo</h2>
+        <p class="">
+            <code>
+                const books = [
+                <span>{title: "Harry Potter y la piedra filosofal", isRead: true},</span>
+                <span>{title: "Canción de hielo y fuego", isRead: false},</span>
+                <span>{title: "Devastación", isRead: true},</span>
+                ];<br/>
+                console.log(isBookRead(books, "Devastación")); // true<br/>
+                console.log(isBookRead(books, "Canción de hielo y fuego")); // false<br/>
+                console.log(isBookRead(books, "Los Pilares de la Tierra")); // false
+            </code>
+        </p>
+        <h2>Opcional</h2>
+        <p>Utiliza Typescript para añadir los tipos adecuados.</p>
+    </div>
+</body>
+</html>
